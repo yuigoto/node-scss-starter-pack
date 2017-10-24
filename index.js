@@ -118,7 +118,7 @@ async.series(
                         throw err;
                     } else {
                         console.log(
-                            "\x1b[36m[---------------------------------------------------------"
+                            "\x1b[36m---------------------------------------------------------"
                         );
 
                         console.log(
@@ -131,7 +131,7 @@ async.series(
 
                         console.log(
                             "\x1b[33m[STARTER PACK]: Digite `rs` e tecle ENTER para reiniciar\n" + 
-                            "\x1b[33m[STARTER PACK]: Pressione CTRL + V para encerrar o processo"
+                            "\x1b[33m[STARTER PACK]: Pressione CTRL + C para encerrar o processo"
                         );
 
                         console.log(
